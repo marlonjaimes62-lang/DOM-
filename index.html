@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="app">
+            <form id="producto" novalidate>
+                <div>
+                    <label for="nombre">Nombre</label>
+                    <input
+                        name="nombre"
+                        type="text"
+                        id="nombre"
+                        class="input"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="precio">Precio</label>
+                    <input
+                        name="precio"
+                        type="number"
+                        id="precio"
+                        class="input"
+                        required
+                    />
+                </div>
+                <div>
+                    <label for="cantidad">Cantidad</label>
+                    <input
+                        name="cantidad"
+                        type="text"
+                        id="cantidad"
+                        class="input"
+                        required
+                    />
+                </div>
+                <button>Guardar</button>
+            </form>
+            <form action=""></form>
+        </div>
+        <script src="app.js" type="module"></script>
+    </body>
+</html>
